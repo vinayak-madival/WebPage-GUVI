@@ -1,0 +1,62 @@
+.container
+{
+    border: 2px solid black;
+    width: 100%;
+    position: relative;
+    border: none;
+}
+
+.leftside
+{
+    border: 2px solid red;
+    width:30%;
+    height: 400px;
+    position: absolute;
+    left: 100px;
+    top: 125px;
+    border: none;
+
+}
+
+.rightside
+{
+    border: 2px solid blue;
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    left: 750px;
+    top: 125px;
+    border: none;
+}
+
+.para
+{
+
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.btn
+{
+    
+    padding: 10px;
+    font-size: larger;
+    font-style: oblique;
+    /* background-color: bisque; */
+    border: none;
+}
+
+.clr
+{
+    color: springgreen;
+}
+.title
+{
+    align-items:center;
+}
+
+.btn span{
+    color: springgreen;
+}
